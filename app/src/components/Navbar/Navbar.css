@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    height: 100px;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+.content{
+    position: absolute;
+    left: 120px;
+    right: 120px;
+    padding-bottom: 20px;
+}
+.navbar .content .icons{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.navbar .content .icons a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.navbar .content .icons a:hover{
+    background-color: white;
+    color: black;
+}
+.navbar .content .icons .b{
+    border-left: 1px solid white;
+}
+.navbar .content .icons .div1, .div2{
+    padding: 14px 0;
+}
+.navbar .content .logo{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navbar .content .logo div a{
+    margin: 0 10px;
+}
+.navbar .content .logo div{
+    padding: 15px 20px;
+}
+.logo .button{
+    padding: 12px 55px;
+    background-color: chocolate;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.logo .round{
+    padding: 15px;
+    border-radius: 100%;
+    margin-left: 12px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+.logo .round .icon{
+    background-color: chocolate;
+}
+.cont1{
+    background-size: cover;
+    background-image: url(https://html.geekcodelab.com/holiday-planners/assets/images/banner-slide-3.jpg);
+    
+    width: 100%;
+    background-position: center;
+    color: white;
+    padding: 250px ;
+    text-align: center;
+}
+.cont1 h1{
+    font-size: 65px;
+}
+.cont1 span{
+    background-color: chocolate;
+}
+.cont1 p{
+    font-size: 21px;
+    margin-top: 10px;
+}
