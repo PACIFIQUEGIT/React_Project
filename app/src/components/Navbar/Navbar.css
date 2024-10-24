@@ -146,4 +146,9 @@
 .overlay-content div{
     padding: 50px 120px;
 }
+input:focus, textarea:focus, select:focus{
+    border: none;
+    outline: none;
+}
+
   

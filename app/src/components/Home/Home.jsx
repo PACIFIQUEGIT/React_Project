@@ -40,7 +40,7 @@ export const Home = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 10000); 
+    }, 5000); 
 
     return () => clearInterval(interval); 
   }, []);
